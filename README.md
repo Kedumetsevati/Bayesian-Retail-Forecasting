@@ -1,3 +1,4 @@
+![Project Cover](vvt.png)
 # 🧠 Bayesian Forecasting for Retail Analysis
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
