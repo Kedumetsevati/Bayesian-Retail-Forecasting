@@ -63,6 +63,26 @@ for s in range(S):
 pred_mean = pred_draws.mean(axis=0)
 pred_lo = np.percentile(pred_draws, 2.5, axis=0)
 pred_hi = np.percentile(pred_draws, 97.5, axis=0)
+# ---- Save forecast table for Streamlit dashboard ----
+import pandas as pd
+import os
+
+forecast_df = pd.DataFrame({
+    "date": months_future,
+    "product": "Total Revenue",          # or use real product name if you have multiple
+    "yhat": pred_mean,
+    "yhat_lower": pred_lo,
+    "yhat_upper": pred_hi,
+})
+
+# ensure project data folder exists
+os.makedirs("data", exist_ok=True)
+
+forecast_path = os.path.join("data", "forecast_results.csv")
+forecast_df.to_csv(forecast_path, index=False)
+
+print("Saved forecast table to:", forecast_path)
+print(forecast_df.head())
 
 plt.figure()
 plt.plot(df["Date"], df["Revenue"], marker="o", linestyle="-", label="Observed")
