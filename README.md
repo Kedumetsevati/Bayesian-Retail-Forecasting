@@ -45,14 +45,11 @@ This approach is directly applicable to retail chains like **Costco**, where und
 
 ## 📸 Dashboard Preview
 
-### Forecast with 95% Credible Interval
-![Forecast Chart](images/CCBA8858-2843-43EF-8654-67C3FF554BAD_cropped.jpg)
+![Forecast](images/CCBA8858-2843-43EF-8654-67C3FF554BAD_cropped.jpg)
 
-### Recommendations Table
 ![Table](images/33BA6AB7-0599-408B-8F8C-D2D8B1858D81_cropped.jpg)
 
-### Dashboard Overview
-![Dashboard Overview](images/0DEE2B94-DD4F-4297-AFEE-3794F36C9E7D_cropped.jpg)
+![Overview](images/0DEE2B94-DD4F-4297-AFEE-3794F36C9E7D_cropped.jpg)
 
 
 ---
