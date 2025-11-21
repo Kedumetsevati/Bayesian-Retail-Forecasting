@@ -45,21 +45,3 @@ This approach is directly applicable to retail chains like **Costco**, where und
 
 ---
 
-# 🐺 Bayesian Forecasting Dashboard — “Wolf of Wall Street” Theme  
-
-This project includes a full **Streamlit dashboard** with a dark cinematic UI inspired by financial analytics platforms.
-
-### 🔍 Key Features
-- **Mean forecast + 95% credible interval**  
-- Beautiful **shaded posterior band** (upper/lower credible region)  
-- **Gold-highlight KPI cards**  
-- **Uncertainty-over-time** bar chart  
-- **Downloadable CSV** for forecast recommendations  
-- Filters for **series** and **date range**  
-
-### 📸 Dashboard Preview  
-(Replace these with your real screenshots once you upload them to `images/`)  
-
-```markdown
-![Dashboard Overview](images/dashboard_overview.png)
-![Forecast Plot](images/dashboard_forecast.png)
